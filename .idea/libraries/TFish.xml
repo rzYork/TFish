@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="TFish">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../lib/TFish" />
+      <root url="file://$PROJECT_DIR$/../lib/TFish" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../lib/TFish" />
+      <root url="file://$PROJECT_DIR$/../lib/TFish" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../lib/TFish" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../lib/TFish" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../lib/TFish" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../lib/TFish" recursive="false" type="SOURCES" />
+  </library>
+</component>

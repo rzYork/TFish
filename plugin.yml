@@ -1,0 +1,21 @@
+name: TFish
+version: 1.0
+author: Tracer
+main: com.tracer0219.TFishPlugin
+commands:
+  tf:
+    description: TFish command
+    usage: /<command> help
+    permission: tf.admin
+    permission-message: You have no permission to use this
+permissions:
+  tf.use:
+    default: true
+  tf.vip:
+    default: op
+  tf.admin:
+    default: op
+depend:
+  - WorldGuard
+  - PlaceholderAPI
+  - ProtocolLib

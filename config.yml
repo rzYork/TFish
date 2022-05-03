@@ -1,0 +1,30 @@
+area_name_of_world_guard: area1
+prefix: '&7[&e钓鱼&7]: &b'
+enter-message: '&e您已进入钓鱼区域'
+enter-message-vip: '&e您已进入钓鱼区域! 由于您是尊贵的VIP可以获得额外奖励!'
+awards:
+  award_1:
+    commands:
+      - 'say %tfish_player_name% 获得了礼包1'
+      - 'givemoney %tfish_player_name% 1000'
+    weight: 500   #概率为所有奖励概率之和分之该奖励概率
+    vip_extra:
+      - 'say %tfish_player_name% 获得了礼包1的额外奖励'
+      - 'givemoney %tfish_player_name% 1000'
+    item_id_of_player: '94022c25-8e12-451e-80c3-ede481568e96'
+  award_2:
+    commands:
+      - 'say %tfish_player_name% 获得了礼包2'
+      - 'givemoney %tfish_player_name% 100'
+    weight: 500   #概率为所有奖励概率之和分之该奖励概率
+    item_id_of_player: '94022c25-8e12-451e-80c3-ede481568e96'
+
+rod:
+  display: '&e鱼竿'
+  lore:
+    - '&2lore1'
+    - '&3lore2'
+  enchantments:
+    ARROW_DAMAGE: 3
+    ARROW_FIRE: 1
+  slot: 3
